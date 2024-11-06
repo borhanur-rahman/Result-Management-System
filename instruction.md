@@ -59,7 +59,7 @@ procedur: simply create a button to the userPage 'Change Password' When the user
 
 2. write a switch case programm which will convert marks into (3.25, 3.5 , 3.75) like that after converton we will insert this to database.
 
-3. make a graph when student will see his or her result then it will apear like (A+ , A- , B+).
+3. make a map when student will see his or her result then it will apear like (A+ , A- , B+).
 
 4. Keep the optiom in admin page a. Add course b. View course (in view courses if the course  is_taken is null then admin can delete this) these operation will perform in couses table.
 
