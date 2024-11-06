@@ -1,0 +1,121 @@
+/* Basic styling for the entire page */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    color: #333;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1rem;
+}
+
+.form-container {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+.view-section{
+    margin-top: 5%;
+    padding-top: 30px;
+    background: #fff;
+     padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center; 
+}
+
+h2,h3 {
+    color: #444;
+    margin-bottom: 1rem;
+  
+}
+
+.form-label {
+    font-weight: bold;
+    color: #555;
+    margin-top: 1rem;
+}
+
+.form-select {
+    width: 100%;
+    padding: 0.8rem;
+    margin-top: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+}
+
+form {
+    display: none;
+    margin-top: 1rem;
+}
+
+h3 {
+    color: #444;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.form-input {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: border 0.3s ease;
+}
+
+.form-input:focus {
+    border-color: #6e8efb;
+}
+
+.form-button {
+    width: 100%;
+    margin-bottom:10px;
+    padding: 0.8rem;
+    background: #6e8efb;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.form-button:hover {
+    background: #5769db;
+}
+
+form p {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
+.teacher_view_button{
+    margin-bottom: 2%;
+}
+
+

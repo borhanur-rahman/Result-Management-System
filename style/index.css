@@ -1,0 +1,57 @@
+/* Basic styling for the form */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+}
+
+.container {
+    max-width: 400px;
+    width: 100%;
+}
+
+.form-box {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+
+.form-box h2 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.input-box {
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.input-box input, .input-box select {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+.input-box label {
+    font-size: 0.9rem;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}

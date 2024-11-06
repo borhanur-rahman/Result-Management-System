@@ -1,0 +1,69 @@
+
+
+  
+  
+  table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border: 1px;
+    border-color: none;
+   
+    
+   
+    
+}
+td.c1{
+  background-color:rgb(201, 184, 98);
+}
+
+ td { 
+      color: rgb(58, 40, 40);
+      background-color: rgb(246, 239, 202);
+      text-size-adjust: auto ;
+      font-weight:500;
+      font-size:large;
+      border: 10px;
+      border-color: none;
+      height: 40px;
+      padding-left: 20px;
+      border-radius: 5%;
+
+      
+    }
+    button {
+        background-color:rgb(201, 184, 98);
+        border: none;
+        color: rgb(32, 26, 26);
+        padding: 12px 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 5%;
+        opacity: 1;
+        transition: 0.3s;
+         }
+    button:hover{
+      
+      opacity: 0.8;
+    }
+   
+    
+    div.head{
+      text-align: center;
+    }
+    div.btn{
+      display: flex;
+      justify-content: center;
+    }
+    button.delete_btn{
+      background-color:rgb(191, 104, 64);
+    }
+    button.edit_btn{
+      background-color:rgb(201, 184, 98);
+    }
+    th{
+      background-color:rgb(201, 184, 98); 
+    }
+    

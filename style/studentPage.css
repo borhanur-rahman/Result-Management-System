@@ -1,0 +1,176 @@
+/* Page and card container styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card styling */
+.student-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 320px;
+    padding: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.student-card h2 {
+    font-size: 1.5em;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.student-card p {
+    font-size: 1em;
+    color: #555;
+    margin: 8px 0;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    font-size: 0.9em;
+}
+
+table h3 {
+    font-size: 1em;
+    color: #007bff;
+    margin: 0;
+}
+
+table tr:first-child {
+    background-color: #007bff;
+    color: #fff;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: center;
+}
+
+table td {
+    color: #333;
+    border-bottom: 1px solid #ddd;
+}
+
+table tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+table tr:hover {
+    background-color: #e2e6ea;
+}
+
+/* Responsive adjustments */
+@media (max-width: 400px) {
+    .student-card {
+        width: 100%;
+        padding: 15px;
+    }
+
+    table {
+        font-size: 0.85em;
+    }
+}
+/* Page and card container styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card styling */
+.student-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 320px;
+    padding: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.student-card h2 {
+    font-size: 1.5em;
+   
+    margin-bottom: 20px;
+}
+
+.student-card p {
+    font-size: 1em;
+    color: #555;
+    margin: 8px 0;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    font-size: 0.9em;
+}
+
+table h3 {
+    font-size: 1em;
+   
+    margin: 0;
+}
+
+table tr:first-child {
+   
+    color: #fff;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: center;
+}
+
+table td {
+    color: #333;
+    border-bottom: 1px solid #ddd;
+}
+
+table tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+table tr:hover {
+    background-color: #e2e6ea;
+}
+
+/* Responsive adjustments */
+@media (max-width: 400px) {
+    .student-card {
+        width: 100%;
+        padding: 15px;
+    }
+
+    table {
+        font-size: 0.85em;
+    }
+}
